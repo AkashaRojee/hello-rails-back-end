@@ -1,24 +1,54 @@
-# README
+# Set up a "Hello world" project with two apps
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-Things you may want to cover:
+> This project connects Rails with React as two apps. It displays random greetings from the database.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Major languages: Ruby, React
+- Frameworks: Rails
 
-* Configuration
+## Getting Started
 
-* Database creation
+[Front-end repo](https://github.com/AkashaRojee/hello-react-front-end)
 
-* Database initialization
+[Frontend PR](https://github.com/AkashaRojee/hello-react-front-end/pull/1)
 
-* How to run the test suite
+To get a local copy up and running, follow the steps below in your terminal.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Prerequisites
 
-* Deployment instructions
+- Ruby
+- Rails
+- React
+- PostgreSQL
 
-* ...
+### Setup
+
+Clone the back-end and front-end repos:
+
+```
+git clone https://github.com/AkashaRojee/hello-rails-back-end.git
+git clone https://github.com/AkashaRojee/hello-react-front-end.git
+```
+
+### Run
+
+```
+bundle install
+npm install
+rails db:create
+rails db:migrate
+rails db:seed
+rails s
+npm run start
+```
+
+## Author
+
+👤 **Akasha Rojee**
+
+- GitHub: [@AkashaRojee](https://github.com/AkashaRojee)
+- Twitter: [@AkashaRojee](https://twitter.com/AkashaRojee)
+- LinkedIn: [Akasha Rojee](https://linkedin.com/in/AkashaRojee)
