@@ -11,7 +11,9 @@
 
 ## Getting Started
 
-[React app](https://github.com/AkashaRojee/hello-react-front-end)
+[Front-end repo](https://github.com/AkashaRojee/hello-react-front-end)
+
+[Frontend PR](https://github.com/AkashaRojee/hello-react-front-end/pull/1)
 
 To get a local copy up and running, follow the steps below in your terminal.
 
